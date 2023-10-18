@@ -60,5 +60,5 @@ Array.from({ length: 25 }).forEach(() => {
 console.log(COMMENTS)
 
 // writeFileSync(path.join(process.cwd(), "seeds", "post_data.json"), JSON.stringify(POSTS, null, 2))
-writeFileSync(path.join(process.cwd(), "seeds", "user_data.json"), JSON.stringify(RANDOMUSERS, null, 2))
-writeFileSync(path.join(process.cwd(), "seeds", "comment_data.json"), JSON.stringify(COMMENTS, null, 2))
+writeFileSync(path.join(process.cwd(), "seed", "user_data.json"), JSON.stringify(RANDOMUSERS, null, 2))
+writeFileSync(path.join(process.cwd(), "seed", "comment_data.json"), JSON.stringify(COMMENTS, null, 2))
